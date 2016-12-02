@@ -22,7 +22,6 @@ public class TicketManagerGUI extends JFrame{
     private JTextField tbxReporter;
     private JButton btnAddTicket;
     private JList lstTicketList;
-    private JButton btnDeleteTicket;
     private JTextField tbxResolution;
     private JButton btnDelete;
     private DefaultListModel listModel = new DefaultListModel();
