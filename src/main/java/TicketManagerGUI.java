@@ -29,7 +29,7 @@ public class TicketManagerGUI extends JFrame{
     TicketManagerGUI(final LinkedList<Ticket> ticketQueue, final LinkedList<Ticket> resolvedTickets){
         setContentPane(rootPanel);
         pack();
-        setSize(1280, 720); // Sets window size
+        setSize(800, 300); // Sets window size
         setTitle("Ticket Manager");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
